@@ -42,7 +42,7 @@ fs.readFile('/Users/adamengland/Downloads/development-board.json', "UTF-8", hand
 
 ###
 Trello = require("node-trello")
-t = new Trello("81fd0bf0fb6e8d3768e0635d89b2d463", "adea148c554729d229eec3d404491325760ae8e4f15c998dc13ef97369f477e9")
+t = new Trello("<KEY>", "<TOKEN>")
 t.get "1/boards/501aae06c69a7d65341c8ba3/checklists", (err, data) ->
 	checklists = data
 	t.get "1/boards/501aae06c69a7d65341c8ba3/cards", (err, data) ->

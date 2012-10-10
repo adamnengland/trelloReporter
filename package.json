@@ -1,0 +1,13 @@
+{
+  "name" : "trelloReporter",
+  "preferGlobal": "true",
+  "version" : "0.0.1",
+  "private" : true,
+  "dependencies" : {
+    "coffee-script": "*",
+    "node-trello" : "*"
+  },
+  "devDependencies": {
+    "nodeunit": ""
+  }
+}
